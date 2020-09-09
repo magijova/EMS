@@ -1,0 +1,164 @@
+.createEmployee {
+   padding: 10px;
+ } /* this is the Create Employee page*/
+ 
+ .divTableCE
+     {
+         display:  table;
+         width:auto;
+         background-color:#eee;
+         border:1px solid  #666666;
+         border-radius: 5px;
+         border-spacing:10px;/*cellspacing:poor IE support for  this*/
+        /* border-collapse:separate;*/
+     }
+ 
+     .divRowCE
+     {
+        display:table-row;
+        width:auto;
+        height: 10px;
+       
+     }
+     .divRowHeaderCE
+     {
+        display:table-row;
+        width:auto;
+        font-weight: bold;
+     }
+ 
+    .divRowHeader
+     {
+        display:table-row;
+        width:auto;
+        font-weight: bold;
+     }
+ 
+     .divCellCE
+     {
+         float:left;/*fix for  buggy browsers*/
+         display:table-column;
+         width:100px;
+    
+         border-spacing:20px;
+         padding:20px;
+         background-color:#eee;
+         text-align:center;
+        
+ 
+     }
+     .divCellMCE
+     {
+         float:left;/*fix for  buggy browsers*/
+         display:table-column;
+         width:400px;
+         border-spacing:5px;
+         text-align:left;
+         padding:5px;
+         padding-right: 25px;
+     }
+  .divCellButtonCE
+     {
+         float:left;/*fix for  buggy browsers*/
+         display:table-column;
+         width:200px;
+         border-spacing:5px;
+         text-align:left;
+         padding:10px;
+     }
+ 
+     
+  .divCellHeaderLeft
+     {
+         float:left;/*fix for  buggy browsers*/
+         display:table-column;
+         width:300px;
+         border-spacing:20px;
+         color: rgb(187, 0, 0);
+     }
+    
+  .divCellHeaderRight
+     {
+         float:right;/*fix for  buggy browsers*/
+         display:table-column;
+         width:25%;
+         border-spacing:20px;
+     }
+ 
+ 
+ 
+ button {
+    background: #283048;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 15px;
+    margin: 0px;
+    width: 200px;
+    height:50px;   
+    font-size: 18px;
+    text-align: justify;
+    color: black;
+    font-family: sans-serif;
+    border: 2px solid #666666;
+    border-radius: 5px;
+    transition: .6s;
+  
+ }
+ 
+ button:focus {
+    outline: none;
+ }
+ 
+ 
+ button:hover {
+    background: #283048;
+    cursor: pointer;
+ }
+ 
+ button:hover:before {
+    transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+ }
+ button:hover:after {
+    transform: translateX(300px) skewX(-15deg);
+    opacity: 1;
+    transition: .7s;
+ }
+ 
+ button:before {
+    content: '';
+ 
+    display: inline-block;
+    background: whitesmoke;
+    width: 60px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .5s;
+    filter: blur(30px);
+    transform: translateX(-130px) skewX(-15deg);
+ }
+ 
+ button:after {
+    content: '';
+ 
+    display: inline-block;
+    background: rgba(255,255,255,.2);
+    width: 30px;
+    height: 100%;
+    left: 30px;
+    top: 0;
+    opacity: .5s;
+    filter: blur(30px);
+    transform: translateX(-100px) scaleX(-15deg);
+ }
+ 
+ input {
+    background: rgb(245, 245, 245);
+    border: 2px solid rgb(0, 0, 173);
+    border-radius: 4px;
+    height:50px;
+    width:400px;
+    font-size: 30px;
+ }

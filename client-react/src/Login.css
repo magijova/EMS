@@ -1,0 +1,70 @@
+.LoginDiv {
+   padding: 20px;
+ }
+ 
+ .divTable /* this is specifically for List Employees*/
+     {
+         display: table;
+         width:auto;
+         
+         border:1px solid  #666666;
+         border-radius: 5px;
+         border-spacing:10px;/*cellspacing:poor IE support for  this*/
+        /* border-collapse:separate;*/
+     }
+  .divTableHide
+     {
+         display:  none;
+         width:auto;
+         border:1px solid  #666666;
+         border-spacing:5px;/*cellspacing:poor IE support for  this*/
+        /* border-collapse:separate;*/
+     }
+     .divRow
+     {
+        display:table-row;
+        width:auto;
+     }
+     .divRowHeader
+     {
+        display:table-row;
+        width:auto;
+        font-weight: bold;
+     }
+ 
+  .divCellHeaderLeft /* background that was gray to none on headers of tables*/
+     {
+         float:left;/*fix for  buggy browsers*/
+         display:table-column;
+         width:200px;
+         border-spacing:20px;
+         background-color: none;
+     }
+     
+  .divCellHeaderRight /* plus and minus signs to nav back to home*/
+     {
+         float:right;/*fix for  buggy browsers*/
+         display:table-column;
+         width:70px;
+         border-spacing:20px;
+         background-color:none;
+     }
+     .divCell /* List Employees table (ID, Salary, Action)*/
+     {
+         float:left;/*fix for  buggy browsers*/
+         display:table-column;
+         width:100px;
+         border-spacing:20px;
+         border-radius: 3px;
+         background-color:none;
+     }
+     
+     .divCellM /* List Employees table (First, Last, Email, Address */
+     {
+         float:left;/*fix for  buggy browsers*/
+         display:table-column;
+         width:160px;
+         border-spacing:20px;
+         border-radius: 3px;
+         background-color: none;
+     }
